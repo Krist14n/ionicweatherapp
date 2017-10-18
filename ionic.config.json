@@ -1,5 +1,14 @@
 {
   "name": "myweather",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/search",
+      "proxyUrl": "http://autocomplete.wunderground.com"
+    }
+  ]
 }
